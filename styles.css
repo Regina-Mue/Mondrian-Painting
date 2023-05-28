@@ -1,0 +1,140 @@
+body {
+    background-color: #FFFFFF;
+    overflow-x: hidden!important;
+    overscroll-behavior-y: none;
+    background-color: grey;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(8, 45px);
+    grid-template-rows: repeat(12, 45px);
+    gap: 3px;
+    background-color: #000000;
+    width: 381px;
+}
+
+.item1 {
+    background-color: #f1532c;
+    grid-area: 1 / 1 / 5 / 5;
+}
+
+.item2 {
+    background-color: #FFFFFF;
+    grid-area: 1 / 5 / 2 / 6;
+}
+
+.item3 {
+    background-color: #FFFFFF;
+    grid-area: 2 / 5 / 5 / 6;
+}
+
+.item4 {
+    background-color: #fbd52f;
+    grid-area: 1 / 6 / 2 / 9;
+}
+
+.item5 {
+    background-color: #FFFFFF;
+    grid-area: 2 / 6 / 3 / 9;
+}
+
+.item6 {
+    background-color: #526cdd;
+    grid-area: 3 / 6 / 5 / 9;
+}
+
+.item7 {
+    background-color: #FFFFFF;
+    grid-area: 5 / 1 / 6 / 5;
+}
+
+.item8 {
+    background-color: #526cdd;
+    grid-area: 6 / 1 / 8 / 3;
+}
+
+.item9 {
+    background-color: #FFFFFF;
+    grid-area: 6 / 3 / 8 / 5;
+}
+
+.item10 {
+    background-color: #fbd52f;
+    grid-area: 5 / 5 / 7 / 6;
+}
+
+.item11 {
+    background-color: #FFFFFF;
+    grid-area: 7 / 5 / 8 / 7;
+}
+
+.item12 {
+    background-color: #FFFFFF;
+    grid-area: 5 / 6 / 7 / 9;
+}
+
+.item13 {
+    background-color: #fbd52f;
+    grid-area: 7 / 7 / 10 / 9;
+}
+
+.item14 {
+    background-color: #FFFFFF;
+    grid-area: 8 / 1 / 9 / 3;
+}
+
+.item15 {
+    background-color: #fbd52f;
+    grid-area: 9 / 1 / 10 / 2;
+}
+
+.item16 {
+    background-color: #FFFFFF;
+    grid-area: 10 / 1 / 12 / 2;
+}
+
+.item17 {
+    background-color: #000000;
+    grid-area: 12 / 1 / 13 / 2;
+}
+
+.item18 {
+    background-color: #FFFFFF;
+    grid-area: 9 / 2 / 13 / 3;
+}
+
+.item19 {
+    background-color: #f1532c;
+    grid-area: 8 / 3 / 11 / 6;
+}
+
+.item20 {
+    background-color: #FFFFFF;
+    grid-area: 8 / 6 / 11 / 7;
+}
+
+.item21 {
+    background-color: #FFFFFF;
+    grid-area: 10 / 7 / 11 / 9;
+}
+
+.item22 {
+    background-color: #FFFFFF;
+    grid-area: 11 / 3 / 12 / 5;
+}
+
+.item23 {
+    background-color: #526cdd;
+    grid-area: 12 / 3 / 13 / 5;
+}
+
+.item24 {
+    background-color: #FFFFFF;
+    grid-area: 11 / 5 / 13 / 7;
+}
+
+.item25 {
+    background-color: #000000;
+    grid-area: 11 / 7 / 13 / 9;
+}
